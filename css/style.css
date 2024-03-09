@@ -1,0 +1,394 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ /* nav-bar code start */
+
+ 
+ .first-section{
+
+    background-color: #264653;
+    padding: 20px 0px;
+
+
+
+
+ }
+
+ .nav-list{
+    display: flex;
+    list-style-type: none; 
+    gap: 50px;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+
+
+   
+
+ }
+ .nav-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+
+
+
+
+
+ }
+ .login-button{
+    padding: 5px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 80px;
+
+ }
+ .login-button:hover{
+    background-color: rgb(217, 73, 20);
+    cursor: pointer;
+
+ }
+ /* nav-bar code end  */
+
+
+/* banner-section code start */
+.banner-section-header{
+    font-size: 50px;
+    margin: 2px 2px;
+}
+.banner-section{
+    height: 70vh;
+    background-color: #264653;
+    color: #fff;
+}
+.banner-content{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    height: 600px;
+    gap: 50px;
+
+}
+.banner-left-content{
+    align-items: center;
+    margin: auto;
+
+}
+.banner-right-content{
+    align-items: center;
+    margin: auto; 
+}
+.banner-section-button{
+    padding: 5px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+   
+}
+.banner-section-button:hover{
+    background-color: rgb(217, 73, 20);
+    cursor: pointer;
+}
+
+/* banner-secttin code end */
+
+/* Fetured Bikes section code start */
+.two-section{
+    text-align: center;
+    margin: 100px 0px;
+
+}
+.feature-bike-header{
+    font-size: 50px;
+    margin: 0px 1px;
+}
+.Fetured-paragraph{
+    color:red ;
+}
+.rular{
+    height: 2px;
+    width: 60px;
+    background-color:orangered;
+    color: orangered;
+    border: none;
+    outline: none;
+    margin: 15px auto;
+}
+.feature-bike-images{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    margin: auto;
+}
+.Fetured-bike-img{
+    width: 350px;
+    
+}
+
+/* Fetured Bikes section code end */
+
+/* latest news section :start */
+.four-section{
+    margin-bottom: 100px;
+}
+
+.third-section{
+    margin-bottom: 100px;
+}
+.news-section-header{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 40px;
+}
+.news-paragraph{
+    color: #644d4d;
+}
+.news-section-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: start;
+}
+.news-section-button{
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: red;
+  margin-top:40px;
+}
+.news-section-button:hover{
+    background-color: rgba(255, 68, 0, 0.592);
+    cursor: pointer;
+    border: 4px solid rgba(222, 11, 25, 0.591);
+    outline: auto;
+    color: white;
+
+}
+.latest-news-item{
+    height: 600px;
+    width: 370px;
+    border: 2px solid rgba(128, 128, 128, 0.171);
+    border-radius: 10px;
+    padding:10px;
+
+
+}
+.latest-news-item img{
+    width:350px ;
+    padding: 10px;
+
+
+}
+
+/* latest news section :end */
+
+/* happy clients says section start  */
+.happy-section-header{
+    text-align: center;
+    font-size: 40px;
+}
+.happy-section-header span{
+    color: rgba(203, 57, 57, 0.72);
+}
+.happy-cilents-says-item p{
+    color:#644d4d ;
+}
+.happy-cilents-says-item h6{
+    font-size: 16px;
+    color: rgba(0, 0, 255, 0.573);
+}
+.happy-cilents-says-item h5{
+    font-size: 20px;
+}
+.happy-cilents-says-items{
+    display: flex;
+    gap: 50PX;
+    justify-content:center;
+    text-align: center;
+   
+    
+  
+
+}
+.happy-img{
+    height: 200px;
+    width:200px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 50%;
+
+
+}
+.star{
+    color: orangered;
+}
+.happy-cilents-says-item{
+    height: 500px;
+    width: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.171);
+    border-radius: 10px;
+
+
+
+}
+
+/* happy clients says section end  */
+
+/* our serives section start */
+.five-section{
+    margin-bottom: 100px;
+}
+.our-awesome-section-header{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.our-awesome-section-header span{
+    color: rgba(203, 57, 57, 0.788);
+}
+.our-services-item h3{
+    font-size: 20px;
+   color: brown;
+  
+
+}
+.our-services-item p{
+    text-align: center;
+    margin:10px;
+}
+.our-services-content{
+    text-align: center;
+}
+.our-services-items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    gap: 50px;
+    margin: auto;
+    padding: 2px 2px 2px 2px;
+
+}
+.our-services-item{
+    height: 450px;
+    width: 365px;
+    border: 2px solid rgb(215, 207, 207);
+}
+.our-services-item img{
+    height: 200px;
+    width: 300px;
+    margin-top: 40px;
+
+
+}
+/* our serives section end */
+
+/* contect section code design :start */
+.six-section{
+    margin-bottom: 100px;
+}
+.content-heading{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 400%;
+}
+.Contact-item{
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .form-item{
+    margin-bottom: 20px;
+}
+.contact-form label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact-form input ,.contact-form textarea{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 710px;
+    max-height: 200px;
+    border: 2px solid black;
+    background-color: rgb(236, 234, 234);
+}
+.contact-button{
+    background-color: rgb(200, 59, 59);
+    font-size: 20px;
+    color: white;
+    padding: 5px 30px;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* contect section code design :end */
+
+
+/* fouter section code design :start */
+
+.footer-section{
+    background-color: #212529;
+    color: #fff;
+
+
+}
+
+.footer-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+
+}
+.f-l-c-a{
+    margin-right: 30px;
+}
+.footer-left-content a{
+    text-decoration:none;
+    color: #fff; 
+}
+.footer-li{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left:-35px;
+    
+
+}
+
+.footer-right-content img{
+    width: 150px;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* fouter section code design :end */
